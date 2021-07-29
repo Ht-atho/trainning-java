@@ -111,11 +111,11 @@ public class Ass1 {
         System.out.println("Your speed in miles/h is "+ (meters/1609) / (hours + minutes / 60 + seconds / 3600));
     }
     public static void main(String[] args){
-        sum();
-        calculator();
-        multiply();
+//        sum();
+//        calculator();
+//        multiply();
         checkNum();
-        calculatorSpeed();
+//        calculatorSpeed();
         sc.close();
     }
 

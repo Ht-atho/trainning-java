@@ -1,9 +1,9 @@
-package Ass7;
+package Ass7.Ex1;
 
 import java.io.*;
 
 public class Exercise1 {
-    private final static String FILE_URL = "src/Ass7/data.txt";
+    private final static String FILE_URL = "src/Ass7/Ex1/data.txt";
     private static final File file = new File(FILE_URL);
     static void readFile() throws Exception {
         InputStream inputStream = new FileInputStream(file);
